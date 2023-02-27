@@ -1,6 +1,6 @@
 ### Hey everyone, Rc here 👋
 
-I've been coding since I was 15! 
+Fell in love with coding since I was 12. Started building applications when I was 15! 
 
 Years of self taught and internet tutorials later, I am now a Full Stack Developer. 
 
