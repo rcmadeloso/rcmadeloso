@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117 50" width="117" height="50" stroke-linejoin="miter">
+<!-- The LinkedIn button. Drawn by draw.py: change it there, not here. -->
+<style>@media (prefers-reduced-motion:reduce){*{animation:none!important}}.cap{fill:#fff;stroke:#111;stroke-linejoin:round;paint-order:stroke}.arrow{animation:nudge 1.6s ease-in-out infinite}.bob{animation:bob 3.4s ease-in-out infinite}.bob2{animation-delay:-.85s}.bob3{animation-delay:-1.7s}.bob4{animation-delay:-2.55s}.scribe{stroke-dasharray:100;animation:scribe 7s ease-in-out infinite}.hl{animation:glow 3.2s ease-in-out infinite}@keyframes nudge{0%,100%{transform:translate(0,0)}50%{transform:translate(var(--dx,4px),var(--dy,0))}}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}@keyframes scribe{0%{stroke-dashoffset:100}16%,88%{stroke-dashoffset:0;opacity:1}96%,100%{stroke-dashoffset:0;opacity:0}}@keyframes glow{0%,100%{opacity:1}50%{opacity:.55}}@media (prefers-reduced-motion:no-preference){.boil{filter:url(#boil)}}</style>
+<defs><filter id="boil" x="-4%" y="-4%" width="108%" height="108%"><feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="1" seed="2" result="noise"><animate attributeName="seed" values="2;7;11;16" dur="1s" calcMode="discrete" repeatCount="indefinite"/></feTurbulence><feDisplacementMap in="SourceGraphic" in2="noise" scale="2.6" xChannelSelector="R" yChannelSelector="G"/></filter></defs>
+<rect width="117" height="50" fill="#fdfdfb"/>
+<g transform="translate(3 3)">
+<path d="M5 5l10-2 10 0 10 1 9 0 11-1 9 0 10 0 10 0 11-1 10 0 3 8-1 10 1 9-2 10-10 1-9 0-10 1-10 0-10 0-11-1-8 1-11 0-10-1-9 0-3-6 0-11-1-9z" fill="#fdfdfb"/>
+<path d="M6 5l8 1 10-1 11 1 9-1 11 0 10 0 10 0 10-1 10 0 8 0 3 6-1 9 1 10 0 9-8 0-11 1-10 0-10 0-10 0-9 0-11 0-9-1-11 1-8 0-3-6 1-10-1-9zM3 14l0 9-1 10 5 9 10 0 11 0 9 0 11 0 9 0 10 0 10 0 10 0 11-1 10-1 1-11-1-10 1-10-4-8-11 0-9 0-10 1-10 0-10 0-11-1-9 1-11 0-10 1-10 0z" fill="#111" fill-rule="evenodd"/>
+<text x="55.5" y="28.5" font-size="18" data-font="comicb" text-anchor="middle">LinkedIn</text>
+</g>
+</svg>
