@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846 699" width="846" height="699">
+<!-- The tech stack as a "starter pack" meme, as on rcmadeloso.com: one frame, a title
+     across the top, a doodle for each part of the kit. AI engineering leads, full width. -->
+<style>
+  .l { fill: none; stroke: #000; stroke-width: 3; }
+  .d { fill: none; stroke: #000; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+</style>
+<rect width="846" height="699" fill="#fff"/>
+<g transform="translate(3 3)">
+  <g shape-rendering="crispEdges">
+    <rect class="l" x="1.5" y="1.5" width="837" height="690"/>
+    <rect x="0" y="76" width="840" height="3"/>
+    <rect x="0" y="243" width="840" height="3"/>
+    <rect x="0" y="392" width="840" height="3"/>
+    <rect x="0" y="541" width="840" height="3"/>
+    <rect x="418.5" y="246" width="3" height="445"/>
+  </g>
+  <text x="420" y="58.5" font-size="48" text-anchor="middle" data-font="anton" data-fit="780">THE SENIOR FULL STACK DEV STARTER PACK</text>
+
+  <!-- AI engineering: a robot -->
+  <g class="d" transform="translate(28 113) scale(1.5)">
+    <path d="M32 18v-7"/><circle cx="32" cy="8" r="3"/><path d="M13 18h38v32H13z"/>
+    <circle cx="24" cy="31" r="4"/><circle cx="40" cy="31" r="4"/>
+    <path d="M23 42h18M27 42v-3M32 42v-3M37 42v-3"/><path d="M13 28H8v12h5M51 28h5v12h-5"/><path d="M22 50v6M42 50v6"/>
+  </g>
+  <text x="150" y="131" font-size="32" data-font="anton">AI ENGINEERING</text>
+  <text x="150" y="162" font-size="20" data-font="comic" data-wrap="662" data-leading="27">Claude&#160;Code&#160;· AI&#160;coding&#160;agents&#160;· Custom&#160;agent&#160;skills&#160;· Multi-agent&#160;orchestrators&#160;· Agentic&#160;workflows&#160;· MCP&#160;(Model&#160;Context&#160;Protocol)&#160;· Anthropic&#160;Claude&#160;API&#160;· OpenAI&#160;API</text>
+
+  <!-- Core stack: a literal stack of pancakes -->
+  <g class="d" transform="translate(24 270)">
+    <path d="M6 54h52"/><path d="M10 46c0-3 10-6 22-6s22 3 22 6-10 6-22 6-22-3-22-6z"/>
+    <path d="M10 37c0-3 10-6 22-6s22 3 22 6-10 6-22 6-22-3-22-6z"/><path d="M10 28c0-3 10-6 22-6s22 3 22 6-10 6-22 6-22-3-22-6z"/>
+    <path d="M27 17h10v5H27z"/><path d="M44 32v7"/>
+  </g>
+  <text x="108" y="291" font-size="24" data-font="anton">CORE STACK</text>
+  <text x="108" y="319" font-size="19" data-font="comic" data-wrap="288" data-leading="25">Laravel&#160;8-12&#160;· Vue.js&#160;2-3&#160;· Inertia.js&#160;· Nuxt&#160;3&#160;· Livewire&#160;· Alpine.js&#160;· Tailwind&#160;CSS&#160;· Pinia</text>
+
+  <!-- Languages and frameworks: a speech bubble of code -->
+  <g class="d" transform="translate(445.5 270)">
+    <path d="M7 10h50v32H32l-11 11V42H7z"/><path d="M24 20l-7 6 7 6M40 20l7 6-7 6M35 17l-6 18"/>
+  </g>
+  <text x="529.5" y="291" font-size="24" data-font="anton">LANGUAGES &amp; FRAMEWORKS</text>
+  <text x="529.5" y="319" font-size="19" data-font="comic" data-wrap="288" data-leading="25">PHP&#160;· JavaScript&#160;· TypeScript&#160;· Python&#160;· C#&#160;· Node.js&#160;· React&#160;· Next.js&#160;· .NET</text>
+
+  <!-- Databases and APIs: a database cylinder -->
+  <g class="d" transform="translate(24 419)">
+    <path d="M13 14c0-4 9-7 19-7s19 3 19 7v36c0 4-9 7-19 7s-19-3-19-7z"/>
+    <path d="M13 14c0 4 9 7 19 7s19-3 19-7M13 26c0 4 9 7 19 7s19-3 19-7M13 38c0 4 9 7 19 7s19-3 19-7"/>
+  </g>
+  <text x="108" y="440" font-size="24" data-font="anton">DATABASES &amp; APIS</text>
+  <text x="108" y="468" font-size="19" data-font="comic" data-wrap="288" data-leading="25">MySQL&#160;· PostgreSQL&#160;· Redis&#160;· Firebase&#160;· REST&#160;· GraphQL&#160;· WebSockets&#160;· OAuth&#160;2.0</text>
+
+  <!-- DevOps and tools: a gear -->
+  <g class="d" transform="translate(445.5 419)">
+    <path d="M32 7L36.9 7.5L39.3 14.4L42.6 16.2L49.7 14.3L52.8 18.1L49.6 24.7L50.6 28.3L57 32L56.5 36.9L49.6 39.3L47.8 42.6L49.7 49.7L45.9 52.8L39.3 49.6L35.7 50.6L32 57L27.1 56.5L24.7 49.6L21.4 47.8L14.3 49.7L11.2 45.9L14.4 39.3L13.4 35.7L7 32L7.5 27.1L14.4 24.7L16.2 21.4L14.3 14.3L18.1 11.2L24.7 14.4L28.3 13.4Z"/>
+    <circle cx="32" cy="32" r="8"/>
+  </g>
+  <text x="529.5" y="440" font-size="24" data-font="anton">DEVOPS &amp; TOOLS</text>
+  <text x="529.5" y="468" font-size="19" data-font="comic" data-wrap="288" data-leading="25">Docker&#160;· CI/CD&#160;· GitHub&#160;Actions&#160;· GitLab&#160;CI&#160;· Laravel&#160;Forge&#160;· Git&#160;· Jira</text>
+
+  <!-- Cloud services: a cloud with a download arrow -->
+  <g class="d" transform="translate(24 568)">
+    <path d="M17 47h31a10 10 0 0 0 1-20 15 15 0 0 0-28-3 11 11 0 0 0-4 23z"/><path d="M32 36v16M26 46l6 6 6-6"/>
+  </g>
+  <text x="108" y="589" font-size="24" data-font="anton">CLOUD SERVICES</text>
+  <text x="108" y="617" font-size="19" data-font="comic" data-wrap="288" data-leading="25">AWS&#160;EC2&#160;· AWS&#160;RDS&#160;· AWS&#160;S3&#160;· AWS&#160;SES&#160;· GCP&#160;· DigitalOcean&#160;· Cloudflare</text>
+
+  <!-- Development practices: a checklist on a clipboard -->
+  <g class="d" transform="translate(445.5 568)">
+    <path d="M13 10h38v48H13z"/><path d="M24 6h16v8H24z"/>
+    <path d="M19 25l3 3 6-6M33 25h12M19 37l3 3 6-6M33 37h12M19 49h9M33 49h12"/>
+  </g>
+  <text x="529.5" y="589" font-size="24" data-font="anton">DEVELOPMENT PRACTICES</text>
+  <text x="529.5" y="617" font-size="19" data-font="comic" data-wrap="288" data-leading="25">Agile/Scrum&#160;· TDD/BDD&#160;· PHPUnit&#160;· Pest&#160;· Code&#160;Review&#160;· Mentoring&#160;· Technical&#160;Documentation</text>
+</g>
+</svg>
