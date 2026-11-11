@@ -1,86 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846 591" width="846" height="591">
-<!-- "How I ship in 2026" from rcmadeloso.com as a four-panel rage comic. The cast is
-     original: the portrait, and the starter pack's robot standing in for the agents. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846 647" width="846" height="647">
+<!-- "How I ship in 2026" from rcmadeloso.com as a four-panel rage comic. Each face is a
+     placeholder in src/memes: replace the file, run build.py, and the panel updates.
+     A picture of any shape is fitted and centred in its 320 by 176 box. -->
 <style>
   .l { fill: none; stroke: #000; stroke-width: 3; }
-  .d { fill: none; stroke: #000; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
-  .paper { fill: #fff; }
-  .ink { fill: #000; }
   .cap { fill: #fff; stroke: #000; stroke-linejoin: round; paint-order: stroke; }
 </style>
-<defs>
-  <image id="me" width="150" height="150" href="{{portrait:300}}"/>
-  <g id="bot">
-    <path d="M32 18v-7"/><circle cx="32" cy="8" r="3"/><path class="paper" d="M13 18h38v32H13z"/>
-    <circle cx="24" cy="31" r="4"/><circle cx="40" cy="31" r="4"/>
-    <path d="M23 42h18M27 42v-3M32 42v-3M37 42v-3"/><path d="M13 28H8v12h5M51 28h5v12h-5"/><path d="M22 50v6M42 50v6"/>
-  </g>
-  <g id="laptop">
-    <rect class="paper" x="6" y="0" width="74" height="46" rx="3"/>
-    <path d="M36 17l-6 6 6 6M50 17l6 6-6 6M46 14l-6 18"/>
-    <path class="paper" d="M-6 48h98v7H-6z"/>
-  </g>
-</defs>
-<rect width="846" height="591" fill="#fff"/>
+<rect width="846" height="647" fill="#fff"/>
 <g transform="translate(3 3)">
   <g shape-rendering="crispEdges">
-    <rect class="l" x="1.5" y="1.5" width="837" height="582"/>
+    <rect class="l" x="1.5" y="1.5" width="837" height="638"/>
     <rect x="0" y="104" width="840" height="3"/>
-    <rect x="0" y="343" width="840" height="3"/>
-    <rect x="418.5" y="107" width="3" height="476"/>
+    <rect x="0" y="371" width="840" height="3"/>
+    <rect x="418.5" y="107" width="3" height="532"/>
   </g>
   <text x="28" y="60" font-size="46" data-font="anton">HOW I SHIP IN 2026</text>
   <text x="28" y="89" font-size="20" data-font="comic" data-fit="784">Agents do the heavy lifting. I own the architecture, the standards and the final review.</text>
 
   <!-- 1: the plan -->
-  <text x="211" y="143" font-size="21" text-anchor="middle">I write the plan</text>
-  <text x="211" y="169" font-size="21" text-anchor="middle">and the guardrails.</text>
-  <use href="#me" x="3" y="193"/>
-  <g class="d">
-    <path class="paper" d="M236 208h120v126H236z"/>
-    <path class="paper" d="M272 198h48v20h-48z"/>
-    <path d="M254 268l6 6 11-12M284 268h54M254 292l6 6 11-12M284 292h54M254 316h14M284 316h54"/>
-  </g>
-  <text x="296" y="250" font-size="22" text-anchor="middle" data-font="anton">PLAN</text>
+  <text x="211" y="145" font-size="21" text-anchor="middle">I write the plan</text>
+  <text x="211" y="171" font-size="21" text-anchor="middle">and the guardrails.</text>
+  <image href="{{img:memes/ship-1-plan.png:480}}" x="51" y="189" width="320" height="176"/>
 
   <!-- 2: the agents build -->
-  <text x="629" y="143" font-size="21" text-anchor="middle">Agents build it</text>
-  <text x="629" y="169" font-size="21" text-anchor="middle">with my custom skills.</text>
-  <use href="#bot" class="d" style="stroke-width:2.22" transform="translate(460.5 190) scale(1.35)"/>
-  <use href="#bot" class="d" style="stroke-width:2.22" transform="translate(585.5 190) scale(1.35)"/>
-  <use href="#bot" class="d" style="stroke-width:2.22" transform="translate(710.5 190) scale(1.35)"/>
-  <use href="#laptop" class="d" x="460.5" y="262"/>
-  <use href="#laptop" class="d" x="585.5" y="262"/>
-  <use href="#laptop" class="d" x="710.5" y="262"/>
-  <path class="d" d="M440 320h380"/>
+  <text x="629" y="145" font-size="21" text-anchor="middle">Agents build it</text>
+  <text x="629" y="171" font-size="21" text-anchor="middle">with my custom skills.</text>
+  <image href="{{img:memes/ship-2-build.png:480}}" x="469" y="189" width="320" height="176"/>
 
   <!-- 3: the reviewers try to break it -->
-  <text x="211" y="382" font-size="21" text-anchor="middle">Reviewer agents</text>
-  <text x="211" y="408" font-size="21" text-anchor="middle">try to break it.</text>
-  <use href="#bot" class="d" style="stroke-width:1.67" transform="translate(52 414) scale(1.8)"/>
-  <g class="d">
-    <path d="M85 457l19 8M145 457l-19 8"/>
-    <path d="M153 477q46 6 88 44"/>
-    <path d="M273 495l-30 28" style="stroke-width:9"/>
-    <circle class="paper" cx="241" cy="523" r="7"/>
-    <circle class="paper" cx="300" cy="468" r="38"/>
-    <ellipse class="ink" cx="300" cy="470" rx="12" ry="9"/>
-    <path d="M290 463l-10-8M289 470h-12M290 477l-10 8M310 463l10-8M311 470h12M310 477l10 8M296 462l-4-9M304 462l4-9"/>
-  </g>
-  <text x="352" y="462" font-size="46" data-font="anton">!</text>
-  <text class="cap" x="211" y="568" font-size="32" text-anchor="middle" data-font="anton" data-stroke="0.15">Y U NO PASS</text>
+  <text x="211" y="412" font-size="21" text-anchor="middle">Reviewer agents</text>
+  <text x="211" y="438" font-size="21" text-anchor="middle">try to break it.</text>
+  <image href="{{img:memes/ship-3-review.png:480}}" x="51" y="456" width="320" height="176"/>
+  <text class="cap" x="211" y="626" font-size="32" text-anchor="middle" data-font="anton" data-stroke="0.15">Y U NO PASS</text>
 
   <!-- 4: verify, test, ship -->
-  <text x="629" y="382" font-size="21" text-anchor="middle">I verify, test</text>
-  <text x="629" y="408" font-size="21" text-anchor="middle">and ship.</text>
-  <use href="#me" x="421.5" y="432"/>
-  <g class="d" style="stroke-width:1.58" transform="translate(752 448) rotate(38) scale(1.9) translate(-32 -32)">
-    <path class="paper" d="M32 5c9 7 13 17 13 30v9H19v-9c0-13 4-23 13-30z"/>
-    <circle cx="32" cy="26" r="5"/>
-    <path d="M19 34l-9 9v8l9-5M45 34l9 9v8l-9-5"/>
-    <path d="M25 44l-2 9 5-3 4 10 4-10 5 3-2-9"/>
-  </g>
-  <path class="d" d="M706 506l-11 14M650 470l-16 20M668 446l-10 13"/>
-  <text class="cap" x="664" y="568" font-size="32" text-anchor="middle" data-font="anton" data-stroke="0.15">SHIP IT</text>
+  <text x="629" y="412" font-size="21" text-anchor="middle">I verify, test</text>
+  <text x="629" y="438" font-size="21" text-anchor="middle">and ship.</text>
+  <image href="{{img:memes/ship-4-ship.png:480}}" x="469" y="456" width="320" height="176"/>
+  <text class="cap" x="629" y="626" font-size="32" text-anchor="middle" data-font="anton" data-stroke="0.15">SHIP IT</text>
 </g>
 </svg>

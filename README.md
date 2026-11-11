@@ -14,15 +14,11 @@
 </p>
 
 <p>
-  <img src="assets/ship.svg" width="100%" alt="How I ship in 2026, a four-panel comic. Agents do the heavy lifting. I own the architecture, the standards and the final review. Panel 1: I write the plan and the guardrails. Panel 2: agents build it with my custom skills. Panel 3: reviewer agents try to break it, one robot glaring at a bug through a magnifying glass: Y U no pass. Panel 4: I verify, test and ship: ship it.">
+  <img src="assets/ship.svg" width="100%" alt="How I ship in 2026, a four-panel comic. Agents do the heavy lifting. I own the architecture, the standards and the final review. Panel 1, a calm wojak: I write the plan and the guardrails. Panel 2, the LOL guy: agents build it with my custom skills. Panel 3, the Y U No guy: reviewer agents try to break it. Y U no pass. Panel 4, the Aww Yeah guy: I verify, test and ship. Ship it.">
 </p>
 
 <p>
-  <a href="https://www.rcmadeloso.com"><img src="assets/receipts.svg" width="100%" alt="My career, in memes. Rapid Travel Group, 2025 to now: an itinerary page that took 15-20 seconds to load now takes under 5ms. VCCI, 2021: 20,000+ players online at once. UseAIble, 2019 to 2020: everyone getting into AI in 2023, me shipping ML tools in 2019. The serious version of each one is at rcmadeloso.com."></a>
-</p>
-
-<p>
-  <a href="mailto:job@rcmadeloso.com"><img src="assets/outro.svg" width="100%" alt="Say hi. Laravel and Vue.js, from requirements to deployment. One email away: job@rcmadeloso.com. An angry envelope with its arms up asks: Y U no send me an email. Ramil Christopher Madeloso, Dumaguete, PH, remote."></a>
+  <a href="mailto:job@rcmadeloso.com"><img src="assets/outro.svg" width="100%" alt="Say hi. Laravel and Vue.js, from requirements to deployment. One email away: job@rcmadeloso.com. The Y U No rage face asks: Y U no send me an email. Ramil Christopher Madeloso, Dumaguete, PH, remote."></a>
 </p>
 
 <sub>Drawn in the same MS Paint as <a href="https://www.rcmadeloso.com">rcmadeloso.com</a>. Every picture is built by <code>build.py</code> from <code>src/</code>.</sub>

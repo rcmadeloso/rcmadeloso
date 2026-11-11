@@ -1,25 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846 259" width="846" height="259">
-<!-- The site's "Say hi" close. Its "Y U no send me an email" meme, drawn here as an
-     original character: an envelope with its arms up. -->
+<!-- The site's "Say hi" close, with its "Y U no send me an email" meme. The face is a
+     placeholder: replace src/memes/say-hi.png, run build.py, and it updates.
+     A picture of any shape is fitted and centred in its 194 by 164 box. -->
 <style>
   .l { fill: none; stroke: #000; stroke-width: 3; }
-  .d { fill: none; stroke: #000; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
-  .paper { fill: #fff; }
-  .ink { fill: #000; }
   .cap { fill: #fff; stroke: #000; stroke-linejoin: round; paint-order: stroke; }
 </style>
 <rect width="846" height="259" fill="#fff"/>
 <g transform="translate(3 3)">
-  <g class="d">
-    <path d="M56 146l-24-16 4-34M36 96l-10-10M36 96l0-14M36 96l10-9"/>
-    <path d="M196 146l24-16-4-34M216 96l10-10M216 96l0-14M216 96l-10-9"/>
-    <path d="M98 194v12h-8M154 194v12h8"/>
-    <path class="paper" d="M56 98h140v96H56z"/>
-    <path d="M56 98l70 50 70-50"/>
-    <path d="M90 152l20 8M162 152l-20 8"/>
-    <circle class="ink" cx="103" cy="166" r="3.5"/><circle class="ink" cx="149" cy="166" r="3.5"/>
-    <path class="paper" d="M108 174h36v11h-36z"/><path d="M117 174v11M126 174v11M135 174v11"/>
-  </g>
+  <image href="{{img:memes/say-hi.png:420}}" x="28" y="50" width="194" height="164"/>
   <text class="cap" x="126.5" y="48" font-size="38" text-anchor="middle" data-font="anton" data-stroke="0.15">Y U NO</text>
   <text class="cap" x="126.5" y="238" font-size="32" text-anchor="middle" data-font="anton" data-stroke="0.15" data-fit="226">SEND ME AN EMAIL</text>
 

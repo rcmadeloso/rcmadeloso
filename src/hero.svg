@@ -87,7 +87,7 @@
   <text x="127.5" y="471" font-size="20" text-anchor="middle">rcmadeloso.com</text>
 
   <!-- the portrait as an image macro, selected with Paint's select tool -->
-  <image href="{{portrait:688}}" x="448" y="127" width="344" height="344"/>
+  <image href="{{img:portrait.png:688}}" x="448" y="127" width="344" height="344"/>
   <rect class="l" x="449.5" y="128.5" width="341" height="341" shape-rendering="crispEdges"/>
   <text class="cap" x="620" y="173" font-size="36" text-anchor="middle" data-font="anton" data-stroke="0.15" data-fit="316">WHEN THE CLIENT SAYS</text>
   <g class="stamp">

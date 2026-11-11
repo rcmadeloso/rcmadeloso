@@ -3,7 +3,9 @@
 
 GitHub shows README pictures as <img>, where an SVG cannot load a web font. So
 every <text> in src/ is redrawn here as outlines from the fonts in src/fonts,
-and {{portrait:SIZE}} becomes the portrait as an inline PNG.
+and {{img:PATH:MAX}} becomes the picture at src/PATH as an inline PNG, shrunk to
+at most MAX pixels on its long side. Swap a file in src/memes (or src/portrait.png),
+run this again, and every panel that uses it updates.
 
     pip install fonttools pillow
     python3 build.py
@@ -113,20 +115,24 @@ def outline(match):
     return f'<g{rest} transform="translate({num(x)} {num(y)}) scale({scale:.5f} -{scale:.5f})">{"".join(uses)}</g>'
 
 
-PORTRAITS = {}
+IMAGES = {}
 
 
-def portrait(match):
-    size = int(match.group(1))
-    if size not in PORTRAITS:
-        image = Image.open(ROOT / 'src/portrait.png').convert('RGB').resize((size, size), Image.LANCZOS)
+def inline_image(match):
+    path, limit = match.group(1), int(match.group(2))
+    if (path, limit) not in IMAGES:
+        image = Image.open(ROOT / 'src' / path).convert('RGBA')
+        paper = Image.new('RGBA', image.size, 'white')
+        paper.alpha_composite(image)  # a transparent drawing lands on paper
+        image = paper.convert('RGB')
+        image.thumbnail((limit, limit), Image.LANCZOS)  # only ever shrinks
         # Snap the paper to pure white and the ink to pure black, so flat areas stay flat and small.
         image = image.point(lambda value: 255 if value >= 236 else 0 if value <= 18 else value)
         buffer = io.BytesIO()
-        # Ink, paper, one hoodie tan and their blends: 24 colours keep the edges smooth.
+        # Ink, paper, a flat colour or two and their blends: 24 colours keep the edges smooth.
         image.quantize(24, dither=Image.Dither.NONE).save(buffer, 'PNG', optimize=True)
-        PORTRAITS[size] = 'data:image/png;base64,' + base64.b64encode(buffer.getvalue()).decode()
-    return PORTRAITS[size]
+        IMAGES[(path, limit)] = 'data:image/png;base64,' + base64.b64encode(buffer.getvalue()).decode()
+    return IMAGES[(path, limit)]
 
 
 def build():
@@ -139,7 +145,7 @@ def build():
         svg = re.sub(r'<text\b([^>]*)>([^<]*)</text>', outline, svg)
         defs = ''.join(f'<path id="{glyph_id}" d="{d}"/>' for glyph_id, d in sorted(GLYPHS.items()))
         svg = re.sub(r'(<svg\b[^>]*>)', rf'\1\n<defs>{defs}</defs>', svg, count=1)
-        svg = re.sub(r'\{\{portrait:(\d+)\}\}', portrait, svg)
+        svg = re.sub(r'\{\{img:([\w./-]+):(\d+)\}\}', inline_image, svg)
         svg = re.sub(r'\n\s*', '\n', svg).strip() + '\n'
         # Self-check: nothing left that GitHub cannot draw, and the file still parses.
         assert '<text' not in svg and '{{' not in svg, f'{source.name}: unconverted text or placeholder'
