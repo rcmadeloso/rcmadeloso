@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846 441" width="846" height="441">
+<!-- "My career, in memes" from rcmadeloso.com: three of its timeline memes. The captions
+     are the site's own facts; the drawings are original, not the internet templates. -->
+<style>
+  .l { fill: none; stroke: #000; stroke-width: 3; }
+  .d { fill: none; stroke: #000; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .paper { fill: #fff; }
+  .ink { fill: #000; }
+  .cap { fill: #fff; stroke: #000; stroke-linejoin: round; paint-order: stroke; }
+</style>
+<rect width="846" height="441" fill="#fff"/>
+<g transform="translate(3 3)">
+  <text x="28" y="60" font-size="46" data-font="anton">MY CAREER, IN MEMES</text>
+  <text x="28" y="89" font-size="20" data-font="comic" data-fit="784">Newest first. The serious version of each one is at rcmadeloso.com.</text>
+
+  <!-- Rapid Travel Group: a snail with a rocket strapped on -->
+  <g class="d">
+    <path d="M26 324h230"/>
+    <path d="M20 246h26M12 266h30M20 286h26"/>
+    <path class="paper" d="M52 324c-8-10 2-16 14-16h104c14 0 20-10 22-24l2-12c2-12 24-12 26 2 2 18-6 50-28 50z"/>
+    <path d="M196 262l-7-24M210 262l7-24"/>
+    <circle class="ink" cx="188" cy="234" r="4"/><circle class="ink" cx="218" cy="234" r="4"/>
+    <path d="M198 282q7 4 13-1"/>
+    <circle class="paper" cx="112" cy="272" r="40"/>
+    <path d="M112 272a6 6 0 1 1 12 0a15 15 0 1 1-30 0a25 25 0 1 1 50 0"/>
+    <g style="stroke-width:2.14" transform="translate(110 207) rotate(90) scale(1.4) translate(-32 -32)">
+      <path class="paper" d="M32 5c9 7 13 17 13 30v9H19v-9c0-13 4-23 13-30z"/>
+      <circle cx="32" cy="26" r="5"/>
+      <path d="M19 34l-9 9v8l9-5M45 34l9 9v8l-9-5"/>
+      <path d="M25 44l-2 9 5-3 4 10 4-10 5 3-2-9"/>
+    </g>
+  </g>
+  <text class="cap" x="141" y="141.2" font-size="26" text-anchor="middle" data-font="anton" data-stroke="0.15">ITINERARY PAGE TOOK</text>
+  <text class="cap" x="141" y="168.3" font-size="26" text-anchor="middle" data-font="anton" data-stroke="0.15">15-20 SECONDS</text>
+  <text class="cap" x="141" y="370.4" font-size="30" text-anchor="middle" data-font="anton" data-stroke="0.15">NOW UNDER 5MS</text>
+  <text x="141" y="415" font-size="18" text-anchor="middle" data-fit="252">Rapid Travel Group, 2025 to now</text>
+
+  <!-- VCCI: a crowd of players -->
+  <g class="d">
+    <circle class="paper" cx="318" cy="214" r="13"/><path d="M313.3 212.1v2.9M322.7 212.1v2.9M313.3 219.5q4.7 3.9 9.4 0"/><circle class="paper" cx="352" cy="214" r="13"/><path d="M347.3 212.1v2.9M356.7 212.1v2.9M347.3 219.5q4.7 3.9 9.4 0"/><circle class="paper" cx="386" cy="214" r="13"/><path d="M381.3 212.1v2.9M390.7 212.1v2.9M381.3 219.5q4.7 3.9 9.4 0"/><circle class="paper" cx="420" cy="214" r="13"/><path d="M415.3 212.1v2.9M424.7 212.1v2.9M415.3 219.5q4.7 3.9 9.4 0"/><circle class="paper" cx="454" cy="214" r="13"/><path d="M449.3 212.1v2.9M458.7 212.1v2.9M449.3 219.5q4.7 3.9 9.4 0"/><circle class="paper" cx="488" cy="214" r="13"/><path d="M483.3 212.1v2.9M492.7 212.1v2.9M483.3 219.5q4.7 3.9 9.4 0"/><circle class="paper" cx="522" cy="214" r="13"/><path d="M517.3 212.1v2.9M526.7 212.1v2.9M517.3 219.5q4.7 3.9 9.4 0"/>
+    <circle class="paper" cx="334" cy="252" r="16"/><path d="M328.2 249.6v3.5M339.8 249.6v3.5M328.2 258.7q5.8 4.8 11.5 0"/><circle class="paper" cx="377" cy="252" r="16"/><path d="M371.2 249.6v3.5M382.8 249.6v3.5M371.2 258.7q5.8 4.8 11.5 0"/><circle class="paper" cx="420" cy="252" r="16"/><path d="M414.2 249.6v3.5M425.8 249.6v3.5M414.2 258.7q5.8 4.8 11.5 0"/><circle class="paper" cx="463" cy="252" r="16"/><path d="M457.2 249.6v3.5M468.8 249.6v3.5M457.2 258.7q5.8 4.8 11.5 0"/><circle class="paper" cx="506" cy="252" r="16"/><path d="M500.2 249.6v3.5M511.8 249.6v3.5M500.2 258.7q5.8 4.8 11.5 0"/>
+    <path class="paper" d="M282 340q0-22 26-22t26 22"/><path class="paper" d="M338 340q0-22 26-22t26 22"/><path class="paper" d="M394 340q0-22 26-22t26 22"/><path class="paper" d="M450 340q0-22 26-22t26 22"/><path class="paper" d="M506 340q0-22 26-22t26 22"/><circle class="paper" cx="308" cy="296" r="20"/><path d="M300.8 293.0v4.4M315.2 293.0v4.4M300.8 304.4q7.2 6.0 14.4 0"/><circle class="paper" cx="364" cy="296" r="20"/><path d="M356.8 293.0v4.4M371.2 293.0v4.4M356.8 304.4q7.2 6.0 14.4 0"/><circle class="paper" cx="420" cy="296" r="20"/><path d="M412.8 293.0v4.4M427.2 293.0v4.4M412.8 304.4q7.2 6.0 14.4 0"/><circle class="paper" cx="476" cy="296" r="20"/><path d="M468.8 293.0v4.4M483.2 293.0v4.4M468.8 304.4q7.2 6.0 14.4 0"/><circle class="paper" cx="532" cy="296" r="20"/><path d="M524.8 293.0v4.4M539.2 293.0v4.4M524.8 304.4q7.2 6.0 14.4 0"/>
+  </g>
+  <text class="cap" x="420" y="141.2" font-size="26" text-anchor="middle" data-font="anton" data-stroke="0.15">20,000+ PLAYERS</text>
+  <text class="cap" x="420" y="168.3" font-size="26" text-anchor="middle" data-font="anton" data-stroke="0.15">ONLINE AT ONCE</text>
+  <text class="cap" x="420" y="370.4" font-size="30" text-anchor="middle" data-font="anton" data-stroke="0.15">MOTHER OF GOD</text>
+  <text x="420" y="415" font-size="18" text-anchor="middle">VCCI, 2021</text>
+
+  <!-- UseAIble: the portrait, unimpressed -->
+  <image href="{{portrait:552}}" x="561" y="107" width="276" height="276"/>
+  <text class="cap" x="699" y="141.2" font-size="26" text-anchor="middle" data-font="anton" data-stroke="0.15">EVERYONE GETTING</text>
+  <text class="cap" x="699" y="168.3" font-size="26" text-anchor="middle" data-font="anton" data-stroke="0.15">INTO AI IN 2023</text>
+  <text class="cap" x="699" y="343.8" font-size="26" text-anchor="middle" data-font="anton" data-stroke="0.15">ME, SHIPPING ML</text>
+  <text class="cap" x="699" y="370.8" font-size="26" text-anchor="middle" data-font="anton" data-stroke="0.15">TOOLS IN 2019</text>
+  <text x="699" y="415" font-size="18" text-anchor="middle">UseAIble, 2019 to 2020</text>
+
+  <g shape-rendering="crispEdges">
+    <rect x="0" y="104" width="840" height="3"/>
+    <rect x="0" y="383" width="840" height="3"/>
+    <rect x="279" y="107" width="3" height="326"/>
+    <rect x="558" y="107" width="3" height="326"/>
+    <rect class="l" x="1.5" y="1.5" width="837" height="432"/>
+  </g>
+</g>
+</svg>

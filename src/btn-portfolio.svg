@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115 50" width="115" height="50">
+<!-- A Paint dialog button. The 3px paper ring keeps its edge on GitHub's dark theme. -->
+<rect width="115" height="50" fill="#fff"/>
+<g shape-rendering="crispEdges"><rect x="3" y="3" width="109" height="44"/></g>
+<text x="57.5" y="31.5" font-size="19" text-anchor="middle" fill="#fff">Portfolio</text>
+</svg>

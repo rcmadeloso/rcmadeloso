@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846 566" width="846" height="566">
+<!-- The profile as an MS Paint window, the same chrome as rcmadeloso.com: title bar,
+     menu bar, canvas, Windows 95 scrollbar, status bar. Motion is Paint's own: the
+     selection's marching ants, the text caret, the pointer and its coordinates. -->
+<style>
+  .l { fill: none; stroke: #000; stroke-width: 3; }
+  .w { fill: none; stroke: #fff; stroke-width: 1.8; stroke-linejoin: round; }
+  .g { fill: none; stroke: #000; stroke-width: 2; }
+  .i { fill: none; stroke: #000; stroke-width: 1.6; }
+  .cap { fill: #fff; stroke: #000; stroke-linejoin: round; paint-order: stroke; }
+  .ants { fill: none; stroke: #000; stroke-width: 2; stroke-dasharray: 8 6; animation: ants 0.9s linear infinite; }
+  .handle { fill: #fff; stroke: #000; stroke-width: 2; }
+  .caret { animation: blink 1.06s steps(1) infinite; }
+  .stamp { transform-box: fill-box; transform-origin: center; animation: stamp 0.18s cubic-bezier(0.16, 1, 0.3, 1) 0.24s both; }
+  .pointer { transform: translate(203px, 468px); animation: point 16s ease-in-out infinite; }
+  .c { opacity: 0; animation: coord 16s steps(1) infinite; }
+  .c0 { opacity: 1; }
+  @keyframes ants { to { stroke-dashoffset: -14; } }
+  @keyframes blink { 50% { opacity: 0; } }
+  @keyframes stamp { from { transform: scale(1.04); } to { transform: scale(1); } }
+  @keyframes coord { 0% { opacity: 1; } 12.5% { opacity: 0; } }
+  @keyframes point {
+    0% { transform: translate(203px, 468px); }
+    12.5%, 25% { transform: translate(438px, 117px); }
+    37.5%, 50% { transform: translate(802px, 481px); }
+    62.5%, 75% { transform: translate(300px, 250px); }
+    87.5%, 100% { transform: translate(203px, 468px); }
+  }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs>
+  <pattern id="dither" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="2" height="2"/><rect x="2" y="2" width="2" height="2"/>
+  </pattern>
+</defs>
+<rect width="846" height="566" fill="#fff"/>
+<g transform="translate(3 3)">
+  <g shape-rendering="crispEdges">
+    <!-- title bar -->
+    <rect width="840" height="40"/>
+    <rect x="740" y="8" width="28" height="24" fill="#fff"/>
+    <rect x="772" y="8" width="28" height="24" fill="#fff"/>
+    <rect x="804" y="8" width="28" height="24" fill="#fff"/>
+    <!-- menu bar, canvas, status bar -->
+    <rect x="0" y="78" width="840" height="3"/>
+    <rect x="0" y="517" width="840" height="3"/>
+    <rect x="520" y="520" width="3" height="40"/>
+    <rect x="676" y="520" width="3" height="40"/>
+    <!-- Windows 95 scrollbar: dithered track, square thumb -->
+    <rect x="816" y="81" width="3" height="436"/>
+    <rect x="819" y="81" width="18" height="436" fill="url(#dither)"/>
+    <rect x="819" y="81" width="18" height="18" fill="#fff"/>
+    <rect x="819" y="99" width="18" height="3"/>
+    <rect x="819" y="496" width="18" height="3"/>
+    <rect x="819" y="499" width="18" height="18" fill="#fff"/>
+    <rect x="819" y="110" width="18" height="96"/>
+    <rect x="819" y="113" width="18" height="90" fill="#fff"/>
+    <rect class="l" x="1.5" y="1.5" width="837" height="557"/>
+  </g>
+  <path d="M823.5 93l4.5-6 4.5 6zM823.5 505l4.5 6 4.5-6z"/>
+
+  <!-- title bar: Paint icon, file name, window buttons -->
+  <g class="w" transform="translate(12 10)">
+    <rect x="2" y="3" width="13" height="13"/>
+    <path d="M5 12c2-4 4 1 6-3" stroke-linecap="round"/>
+    <path d="M13.5 2.5 18 7l-5 5-1.5-1.5" fill="#fff"/>
+  </g>
+  <text x="40" y="26" font-size="17" fill="#fff">rcmadeloso_profile_FINAL_v2.png - Paint</text>
+  <path class="g" d="M751 23h6M782.5 16.5h7v7h-7zM782.5 17.5h7M815 17l6 6M821 17l-6 6"/>
+
+  <text x="18" y="66" font-size="17" data-key="1">File</text>
+  <text x="72.4" y="66" font-size="17" data-key="1">Edit</text>
+  <text x="129" y="66" font-size="17" data-key="1">View</text>
+  <text x="189.1" y="66" font-size="17" data-key="1">Image</text>
+  <text x="263.9" y="66" font-size="17" data-key="1">Colors</text>
+  <text x="337.8" y="66" font-size="17" data-key="1">Help</text>
+
+  <!-- canvas: the name, the line under it, the site -->
+  <text x="36" y="178" font-size="76" data-font="anton">RAMIL</text>
+  <text x="36" y="248" font-size="76" data-font="anton">CHRISTOPHER</text>
+  <text x="36" y="318" font-size="76" data-font="anton">MADELOSO</text>
+  <text x="36" y="362" font-size="28">Senior Full Stack Developer</text>
+  <rect class="caret" x="377" y="339" width="3" height="28"/>
+  <text x="36" y="394" font-size="19" data-fit="372">Laravel + Vue.js · Founder, Linchpin Coders</text>
+  <text x="36" y="420" font-size="19" data-fit="372">10+ years · clients in US · UK · AU</text>
+  <rect class="l" x="37.5" y="443.5" width="180" height="42" shape-rendering="crispEdges"/>
+  <text x="127.5" y="471" font-size="20" text-anchor="middle">rcmadeloso.com</text>
+
+  <!-- the portrait as an image macro, selected with Paint's select tool -->
+  <image href="{{portrait:688}}" x="448" y="127" width="344" height="344"/>
+  <rect class="l" x="449.5" y="128.5" width="341" height="341" shape-rendering="crispEdges"/>
+  <text class="cap" x="620" y="173" font-size="36" text-anchor="middle" data-font="anton" data-stroke="0.15" data-fit="316">WHEN THE CLIENT SAYS</text>
+  <g class="stamp">
+    <text class="cap" x="620" y="418" font-size="36" text-anchor="middle" data-font="anton" data-stroke="0.15">IT'S JUST A SMALL</text>
+    <text class="cap" x="620" y="455.5" font-size="36" text-anchor="middle" data-font="anton" data-stroke="0.15">CHANGE</text>
+  </g>
+  <rect class="ants" x="438" y="117" width="364" height="364"/>
+  <g class="handle" shape-rendering="crispEdges">
+    <rect x="434" y="113" width="8" height="8"/><rect x="616" y="113" width="8" height="8"/><rect x="798" y="113" width="8" height="8"/>
+    <rect x="434" y="295" width="8" height="8"/><rect x="798" y="295" width="8" height="8"/>
+    <rect x="434" y="477" width="8" height="8"/><rect x="616" y="477" width="8" height="8"/><rect x="798" y="477" width="8" height="8"/>
+  </g>
+
+  <!-- status bar: tip, pointer position, canvas size -->
+  <text x="14" y="544" font-size="15" data-font="comic">For the serious version, click the picture.</text>
+  <path class="i" d="M541 532v4M541 540v4M535 538h4M543 538h4"/>
+  <text class="c" x="556" y="544" font-size="15" data-font="comic" style="animation-delay:-16s">291, 212px</text>
+  <text class="c" x="556" y="544" font-size="15" data-font="comic" style="animation-delay:-14s">435, 36px</text>
+  <text class="c" x="556" y="544" font-size="15" data-font="comic" style="animation-delay:-12s">617, 218px</text>
+  <text class="c" x="556" y="544" font-size="15" data-font="comic" style="animation-delay:-10s">799, 400px</text>
+  <text class="c" x="556" y="544" font-size="15" data-font="comic" style="animation-delay:-8s">548, 285px</text>
+  <text class="c" x="556" y="544" font-size="15" data-font="comic" style="animation-delay:-6s">297, 169px</text>
+  <text class="c" x="556" y="544" font-size="15" data-font="comic" style="animation-delay:-4s">222, 278px</text>
+  <text class="c c0" x="556" y="544" font-size="15" data-font="comic" style="animation-delay:-2s">147, 387px</text>
+  <rect class="i" x="691.5" y="532.5" width="8" height="8" stroke-dasharray="2 1.5"/>
+  <rect x="701" y="542" width="2" height="2"/>
+  <text x="712" y="544" font-size="15" data-font="comic">840 × 560px</text>
+
+  <!-- the pointer whose position the status bar reports -->
+  <g class="pointer">
+    <path d="M0 0v20l4.7-4.4 3.6 8.2 3.2-1.4-3.6-8H15z" fill="#fff" stroke="#000" stroke-width="1.6" stroke-linejoin="round"/>
+  </g>
+</g>
+</svg>
